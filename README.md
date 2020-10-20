@@ -1,10 +1,9 @@
 # IS601InternetProject
-## The History of Internet Website
+## Team Project: Website
 
-**History of Internet Website**
+**Docker, Linux, and Containerization Website**
 
-With your partner your need to make a website about the history of the Internet based on provided videos. 
-
+Create a website that teaches a new user about what Docker is and how it compares to virtualization.
 
 
 ### Section S601 Fall 2020
@@ -14,5 +13,5 @@ Project Team
 
 Activity Designations
 - Feature: new page
-- Bug: fixed header
+- Fix: fixed header
 - Task: created .gitignore
