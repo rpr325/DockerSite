@@ -100,14 +100,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        <h2>System Information</h2>
+        <h2>File Permissions</h2>
         <samp>
           <ul class="list-group">
-            <li class="list-group-item">'uname -a' <p>Display Linux system information.</p></li>
-            <li class="list-group-item">'uname -r' <p>Display kernel release information.</p></li>
-            <li class="list-group-item">'uptime' <p>Display how long the system has been running with load uptime.</p></li>
-            <li class="list-group-item">'whoami' <p>Display user logged in.</p></li>
-            <li class="list-group-item">'last reboot' <p>Display system reboot history.</p></li>
+            <li class="list-group-item">'chmod 777 filename' <p>User - rwx Group - rwx World - rwx</p></li>
+            <li class="list-group-item">'chmod 775 filename' <p>User - rwx Group - rwx World - r-x</p></li>
+            <li class="list-group-item">'chmod 755 filename' <p>User - rwx Group - r-x World - r-x</p></li>
+            <li class="list-group-item">'chmod 664 filename' <p>User - rw- Group - rw- World - r--</p></li>
+            <li class="list-group-item">'chmod 644 filename' <p>User - rw- Group - r-- World - r--</p></li>
           </ul>
         </samp>
       </div>
