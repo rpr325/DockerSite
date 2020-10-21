@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0263c8ca-4466-4231-8790-8ed259510034" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/About.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compare.html" beforeDir="false" afterPath="$PROJECT_DIR$/Compare.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Container.html" beforeDir="false" afterPath="$PROJECT_DIR$/Container.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux.html" beforeDir="false" afterPath="$PROJECT_DIR$/Linux.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pycharm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Virtual.html" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +63,16 @@
       <option name="presentableId" value="Default" />
       <updated>1603201995644</updated>
       <workItem from="1603201997144" duration="760000" />
-      <workItem from="1603209741847" duration="1530000" />
+      <workItem from="1603209741847" duration="5499000" />
     </task>
+    <task id="LOCAL-00001" summary="Task:Adding in base command line">
+      <created>1603249325731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603249325731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +88,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task:Adding in base command line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task:Adding in base command line" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="198" key="Vcs.Push.Dialog.v2" timestamp="1603249332240">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="392" y="198" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1603249332240" />
   </component>
 </project>
