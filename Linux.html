@@ -179,14 +179,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        <h2>System Information</h2>
+        <h2>File Transfers</h2>
         <samp>
           <ul class="list-group">
-            <li class="list-group-item">'uname -a' <p>Display Linux system information.</p></li>
-            <li class="list-group-item">'uname -r' <p>Display kernel release information.</p></li>
-            <li class="list-group-item">'uptime' <p>Display how long the system has been running with load uptime.</p></li>
-            <li class="list-group-item">'whoami' <p>Display user logged in.</p></li>
-            <li class="list-group-item">'last reboot' <p>Display system reboot history.</p></li>
+            <li class="list-group-item">'scp file.txt server:/tmp' <p>Secure copy file.txt to the /tmp folder on server.</p></li>
+            <li class="list-group-item">'scp server:/var/www/*.html /tmp' <p>Copy *.html files from server to the local /tmp folder.</p></li>
+            <li class="list-group-item">'scp -r server:/var/www /tmp' <p>Copy all files and directories recursively from server to the current system's /tmp folder.</p></li>
+            <li class="list-group-item">'rsync -a /home /backups/' <p>Synchronize /home to /backups/home.</p></li>
+            <li class="list-group-item">'rsync -avz /home server:/backups/' <p>Synchronize files/directories between the local and remote system with compression enabled.</p></li>
           </ul>
         </samp>
       </div>
