@@ -18,3 +18,13 @@ Activity Designations
 - Feature: new page
 - Fix: fixed header
 - Task: created .gitignore
+
+### Sources Cited
+
+ -
+ - 
+ - 
+ - 
+ - 
+ - 
+ 
