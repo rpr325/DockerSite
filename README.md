@@ -21,7 +21,7 @@ Activity Designations
 
 ### Sources Cited
 
- - app. “What Is Application Containerization (App Containerization)? - Definition from WhatIs.Com.” SearchITOperations, 2019, searchitoperations.techtarget.com/definition/application-containerization-app-containerization.
+ - opensource.com “What Is Application Containerization (App Containerization)? - Definition from WhatIs.Com.” SearchITOperations, 2019, searchitoperations.techtarget.com/definition/application-containerization-app-containerization.
  - Webpage.com. “What Is Virtualization?” Opensource.Com, 2019, opensource.com/resources/virtualization.
  - 
  - 
