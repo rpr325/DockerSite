@@ -56,12 +56,13 @@
             <p>Next use the <code>systemctl start docker</code> and <code>systemctl status docker</code> to start the Docker service.</p>
             <p>Then execute with the <code>docker</code> command</p>
         <h2>2. Setting Up the Apache Container</h2>
-            <p>Add the Apache container and map between host and container. Input <code>sudo docker run -dit --name tecmint-web -p 8080:80 -v /home/user/website/:/usr/local/apache2/htdocs/ httpd:2.4</code>.</p>
+            <p>Add the Apache container and map between host and container. Input <code>sudo docker run -dit --name site-web -p 8080:80 -v /home/user/website/:/usr/local/apache2/htdocs/ httpd:2.4</code>.</p>
             <p>To confirm the Apache operation with the <code>sudo docker ps</code> command.</p>
             <img src="https://www.tecmint.com/wp-content/uploads/2018/06/Check-Apache-Docker-Container.png" class="img-fluid" alt=""Courtesy of Gabriel Cánepa - Tecmint.com>
             <p>Create the first webpage (index.html) inside the host directory with the following command <code>vi /home/website/docker.html</code></p>
             <p>Add HTML to the webpage</p>
             <p>Point your browser to the local host IP address</p>
+            <p>Finally stop the continer with the <code>sudo docker stop site-web</code></p>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
