@@ -51,10 +51,15 @@
 <br>
 <img src="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjcyMDE3fQ&auto=format&fit=crop&w=3450&q=80" class="img-fluid" alt="Courtesy of Kvistholt Photography - Unsplash.com">
 <br>
-        <h2>1. Install Docker</h2>
-        <p>Start a terminal session and input the <code>curl -fsSL https://get.docker.com | sh</code> command to install Docker.</p>
-        <p>Next use the <code>systemctl start docker</code> and <code>systemctl status docker</code> to start the Docker service.</p>
-        <p></p>
+        <h2>1. Install Docker on Ubuntu</h2>
+            <p>Start a terminal session and input the <code>curl -fsSL https://get.docker.com | sh</code> command to install Docker.</p>
+            <p>Next use the <code>systemctl start docker</code> and <code>systemctl status docker</code> to start the Docker service.</p>
+            <p>Then execute with the <code>docker</code> command</p>
+        <h2>2. Setting Up the Apache Container</h2>
+            <p>Add the Apache container and map between host and container. Input <code>sudo docker run -dit --name tecmint-web -p 8080:80 -v /home/user/website/:/usr/local/apache2/htdocs/ httpd:2.4</code>.</p>
+            <p>To confirm the Apache operation with the <code>sudo docker ps</code> command.</p>
+            <img src="https://www.tecmint.com/wp-content/uploads/2018/06/Check-Apache-Docker-Container.png" class="img-fluid" alt=""Courtesy of Gabriel Cánepa - Tecmint.com>
+            <p>Create the first webpage (index.html) inside the host directory with the following command <code>vi /home/website/docker.html</code></p>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
